@@ -8,8 +8,12 @@ body {
 }
 
 h1 {
-  margin: 10px;
+  margin: 10px 0 5px 0;
   font-family: sans-serif;
+}
+
+#toggle {
+  margin-bottom: 10px;
 }
 
 .container {
