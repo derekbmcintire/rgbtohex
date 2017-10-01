@@ -48,3 +48,7 @@ p {
   margin: 5px auto;
   background-color: black;
 }
+
+.credit {
+  font-size: 12px;
+}
