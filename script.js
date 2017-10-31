@@ -45,8 +45,8 @@ window.onload = function() {
 
   //math for converting hex to rgb
   function getRGB(hexNum) {
-    let nums = hexNum.split("");
-    if (nums.length > 2) {
+    let nums = hexNum.toUpperCase().split("");
+    if (nums.length != 2) {
       return "Invalid input";
     } else if (hex.indexOf(nums[0]) > -1) {
       return hex.indexOf(nums[0]) * 16 + hex.indexOf(nums[1]);
